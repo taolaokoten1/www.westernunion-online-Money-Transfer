@@ -1,0 +1,11 @@
+
+Notes: The current error page you are seeing can be replaced by a custom error page by modifying the "defaultRedirect" attribute of the application's <customErrors> configuration tag to point to a custom error page URL.
+
+
+<!-- Web.Config Configuration File -->
+
+<configuration>
+    <system.web>
+        <customErrors mode="RemoteOnly" defaultRedirect="mycustompage.htm"/>
+    </system.web>
+</configuration>
